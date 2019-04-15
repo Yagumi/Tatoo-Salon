@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+  <head>
+    <title>Tatoo Salon</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    
+    <link rel="stylesheet" type="text/css" href="slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
+  </head>
+  <body>
+    <div class="content-wrapper">
+      <header class="header">
+        <div class="header__top">
+          <!-- <div class="header__logo"><img src="../static/img/svg/logo.svg" width="33px" height="38px"><span>AMZ TATOO</span></div> -->
+          <nav class="header__main-nav nav">
+            <ul class="nav__list">
+              <li class="nav__item"> <a href="#advantages">О нас</a></li>
+              <li class="nav__item"><a href="#our-works">Портфолио</a></li>
+              <li class="nav__item"><a href="#operation">Этапы работы</a></li>
+              <li class="nav__item"><a href="#our-team">Команда</a></li>
+              <li class="nav__item"><a href="#registration">Цены</a></li>
+            </ul>
+            <button class="toggle__button" type="button"><span class="burger"></span></button>
+          </nav>
+          <div class="header__contacts"><a class="header__email" href="mailto: exemple@mail.ru">Написать нам</a><a class="header__tel" href="tel: +7495223456">+7(495)223456</a></div>
+          <button class="header__button">Записатся на сеанс</button>
+        </div>
+        <div class="header__slider">
+          <div class="header__slider-list">
+            <img src="static/img/banner.png">
+            <img src="static/img/banner.png">
+            <img src="static/img/banner.png"></div>
+        </div>
+      </header>
+      <section class="advantages"><a name="advantages"></a>
+        <h2 class="advantages__title">Почему выбирают нас</h2>
+        <p class="advantages__text">
+          Все услуги нашей студии оказываются 	профессионалами<br> и с помощью современного 
+<br> оборудования
+        </p>
+        <div class="advantages__list">
+          <div class="advantages__item item">
+            <div class="item__info"><span class="item__title">8920</span><span class="item__text">татуировок сделали наши мастера</span></div>
+            <div class="item__btn-wrapper">
+              <button class="item__btn" type="button">Подробнее</button>
+            </div><img src="./static/img/tatoo.png">
+          </div>
+          <div class="advantages__item item">
+            <div class="item__info">
+              <h2 class="item__title">12</h2><span class="item__text">мастреров высочайщего уровня</span>
+            </div>
+            <div class="item__btn-wrapper">
+              <button class="item__btn" type="button">Подробнее</button>
+            </div><img src="./static/img/masters.png">
+          </div>
+          <div class="advantages__item item">
+            <div class="item__info"><span class="item__title">100%</span><span class="item__text">стерильность помещения и </br>оборудования</span></div>
+            <div class="item__btn-wrapper">
+              <button class="item__btn" type="button">Подробнее</button>
+            </div><img src="./static/img/safety.png">
+          </div>
+        </div>
+      </section>
+      <section class="our-works"><a name="our-works"></a>
+        <div class="our-works__wrapper">
+          <h2 class="our-works__title">Наши работы</h2>
+          <p class="our-works__text">Главная цель мастера - передать не только картинку,</br> но и задумку, особенности </br> и эмоции человека.</p>
+          <div class="our-works__list">
+            <div class="div our-works__item"><a href="#"><img src="./static/img/work-1.png"></a></div>
+            <div class="div our-works__item"><a href="#"><img src="./static/img/work-2.png"></a></div>
+            <div class="div our-works__item"><a href="#"><img src="./static/img/work-3.png"></a></div>
+            <div class="div our-works__item"><a href="#"><img src="./static/img/work-4.png"></a></div>
+            <div class="div our-works__item"><a href="#"><img src="./static/img/work-5.png"></a></div>
+            <div class="div our-works__item"><a href="#"><img src="./static/img/work-6.png"></a></div>
+          </div>
+          <button class="our-works__btn" type="button">Открыть галлерею</button>
+        </div>
+      </section>
+      <section class="operation"><a name="operation"></a>
+        <h2 class="operation__title">Как мы работаем</h2>
+        <div class="operation__list">
+          <div class="operation__item item-operation">
+            <div class="item-operation__number">1</div>
+            <h3 class="item-operation__title">Заявка на сайте или по телефону</h3>
+            <p class="item-operation__text">Мы воплотим любую вашу идею татуировки в жизнь. Оставьте заявку и мы перезвоним вам в течение 15 минут.</p>
+          </div>
+          <div class="operation__item item-operation">
+            <div class="item-operation__number">2</div>
+            <h3 class="item-operation__title">Разработка уникального эскиза</h3>
+            <p class="item-operation__text">Далее мастер приступает к созданию индивидуального эскиза татуировки по вашей задумке и утверждает его с вами.</p>
+          </div>
+          <div class="operation__item item-operation">
+            <div class="item-operation__number">3</div>
+            <h3 class="item-operation__title">Сеанс татуировки и итоговая оплата</h3>
+            <p class="item-operation__text">В стерильной студии и с использованием лучшего оборудования вы получаете качественную татуировку.</p>
+          </div>
+        </div>
+      </section>
+      <section class="registration"><a name="registration"></a>
+        <form class="registration__form form" method="POST" action="#">
+          <div class="form__wrapper">
+            <label class="form__label__name" for="name">Ваше имя</label>
+            <input class="form__name" type="name" placeholder="Имя" id="name">
+          </div>
+          <div class="form__wrapper">
+            <label class="form__label__tel" for="tel">Телефон</label>
+            <input class="form__tel" type="tel" placeholder="Телефон" id="tel">
+          </div>
+          <button class="form__btn" type="submit">Записаться</button>
+        </form>
+        <p class="registration__text">* Нажимая на кнопку, вы даете согласие на обработку персональных данных и соглашаетесь c политикой конфиденциальности.</p>
+      </section>
+      <section class="team"><a name="our-team"></a>
+        <h2 class="team__title">Наша команда</h2>
+        <p class="team__text">
+          Искусство предполагает чувства за творчеством, а татуировка несет</br> эти чувства через всю жизнь. Именно поэтому татуировку можно
+</br> назвать искусством в его чистом виде.
+        </p>
+        <div class="team__list">
+          <div class="team__item"><img src="./static/img/team-1.png">
+            <h3>Максим Хорламов</h3>
+            <p>Макс специализируется на татуировках в стиле реализм, качественно и быстро исполняя масштабные работы.</p>
+          </div>
+          <div class="team__item"><img src="./static/img/team-2.png">
+            <h3>Петр Герасимов</h3>
+            <p>Основная масса работ Петра - это татуировки в стиле black&gray, а также графика и кавер-ап в реализме.</p>
+          </div>
+          <div class="team__item"><img src="./static/img/team-3.png">
+            <h3>Анна Ильина</h3>
+            <p>Анна - специалист пирсинга и микродермала, имеющий медицинское образование и 3 года успешного опыта работы.</p>
+          </div>
+        </div>
+      </section>
+      <footer class="main-footer">
+        <div class="main-footer__logo">Amz tatoo</div><span class="main-footer__privacy">Политика конфиденциальности</span>
+        <p class="main-footer__social-list"><a href="twitter.com"></a></p>
+      </footer>
+      <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+      <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+      <script type="text/javascript" src="slick/slick.min.js"></script>
+      <script type="text/javascript" src="static/js/main.js"></script>
+      <script type="text/javascript" src="static/js/script.js"></script>
+    </div>
+  </body>
+</html>
